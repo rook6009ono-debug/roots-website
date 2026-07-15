@@ -1,0 +1,7 @@
+# 既存サイトから取得した原本アーカイブ(ローカル保管のみ・96MB)
+originals/
+
+# 検証用スクリーンショット(ローカル保管のみ)
+docs/screenshots/
+
+node_modules/

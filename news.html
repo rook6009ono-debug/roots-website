@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>お知らせ一覧｜株式会社gravity　ルーツ訪問看護リハビリステーション</title>
+	<meta name="description" content="ルーツ訪問看護リハビリステーション（株式会社gravity）のお知らせ一覧です。マンスリートピックスや地域活動、勉強会などの最新情報をご紹介します。">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="お知らせ一覧｜ルーツ訪問看護リハビリステーション">
+	<meta property="og:description" content="マンスリートピックスや地域活動、勉強会などの最新情報をご紹介します。">
+	<meta property="og:site_name" content="ルーツ訪問看護リハビリステーション">
+	<meta property="og:image" content="ogp.png">
+	<meta property="og:locale" content="ja_JP">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<link rel="icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Iceland&family=Noto+Sans+JP:wght@500;700&family=Pattaya&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/site-config.js"></script>
+</head>
+
+<body data-page="news" class="news-list-page">
+	<div class="bg-poster" aria-hidden="true"></div>
+	<video id="bg-video" data-src="video/bg_movie.mp4" poster="optimized/images/bg_body.webp" muted loop playsinline autoplay preload="none" aria-hidden="true" tabindex="-1"></video>
+	<div class="video_grad" aria-hidden="true"></div>
+
+	<div class="site">
+		<header id="site-header" class="site-header"><!-- js/include.js が描画 --></header>
+
+		<main>
+			<h1 class="sub"><span>What's New</span>お知らせ一覧</h1>
+
+			<div class="container mb_cont">
+				<div class="bg_top05">
+					<!-- js/render-news-list.js が data/news.json から描画 (12件ずつ追加読み込み) -->
+					<div id="news-list"></div>
+				</div>
+				<p class="news-count" id="news-count"></p>
+				<p class="btn_more"><button type="button" id="news-more">さらに読み込む</button></p>
+			</div>
+		</main>
+
+		<footer id="site-footer" class="site-footer"><!-- js/include.js が描画 --></footer>
+
+		<p class="pagetop"><a href="#" aria-label="このページの先頭へ"><img src="optimized/images/pagetop.webp" width="44" height="43" alt="pagetop このページの先頭へ"></a></p>
+	</div>
+
+	<dialog id="lightbox" class="lightbox" aria-label="画像の拡大表示">
+		<button class="lightbox-close" aria-label="閉じる">×</button>
+		<img src="" alt="">
+	</dialog>
+
+	<script src="js/data-source.js"></script>
+	<script src="js/include.js"></script>
+	<script src="js/render-news-list.js"></script>
+	<script src="js/ui.js"></script>
+</body>
+</html>

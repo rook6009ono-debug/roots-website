@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>スタッフ紹介｜株式会社gravity　ルーツ訪問看護リハビリステーション</title>
+	<meta name="description" content="ルーツ訪問看護リハビリステーションのスタッフ紹介です。 　代表取締役の荘　徹男を中心に安心して療養生活が送れるように、利用者・家族様、関係職種の方々と一緒に考え、お手伝いをしていきます。">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="スタッフ紹介｜ルーツ訪問看護リハビリステーション">
+	<meta property="og:description" content="代表取締役の荘　徹男を中心に、看護師・理学療法士・作業療法士・言語聴覚士など経験豊富なスタッフをご紹介します。">
+	<meta property="og:site_name" content="ルーツ訪問看護リハビリステーション">
+	<meta property="og:image" content="ogp.png">
+	<meta property="og:locale" content="ja_JP">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<link rel="icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Iceland&family=Noto+Sans+JP:wght@500;700&family=Pattaya&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/site-config.js"></script>
+</head>
+
+<body data-page="staff">
+	<div class="bg-poster" aria-hidden="true"></div>
+	<video id="bg-video" data-src="video/bg_movie.mp4" poster="optimized/images/bg_body.webp" muted loop playsinline autoplay preload="none" aria-hidden="true" tabindex="-1"></video>
+	<div class="video_grad" aria-hidden="true"></div>
+
+	<div class="site">
+		<header id="site-header" class="site-header"><!-- js/include.js が描画 --></header>
+
+		<main>
+			<h1 class="sub"><span>Staff</span>スタッフ紹介</h1>
+
+			<div class="container mb_cont">
+				<!-- js/render-staff.js が data/staff.json から描画
+				     #staff-leader: 代表(featured) / #staff-list: スタッフ一覧 -->
+				<div id="staff-leader"></div>
+				<div id="staff-list" class="flex_s wrap"></div>
+			</div>
+		</main>
+
+		<footer id="site-footer" class="site-footer"><!-- js/include.js が描画 --></footer>
+
+		<p class="pagetop"><a href="#" aria-label="このページの先頭へ"><img src="optimized/images/pagetop.webp" width="44" height="43" alt="pagetop このページの先頭へ"></a></p>
+	</div>
+
+	<script src="js/data-source.js"></script>
+	<script src="js/include.js"></script>
+	<script src="js/render-staff.js"></script>
+	<script src="js/ui.js"></script>
+</body>
+</html>
