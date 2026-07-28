@@ -5,3 +5,7 @@ originals/
 docs/screenshots/
 
 node_modules/
+
+# 本番リリースパッケージ(tools/build-release.jsで都度生成)
+release/
+roots-website-release.zip
