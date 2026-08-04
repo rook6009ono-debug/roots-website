@@ -22,9 +22,8 @@ const CONFIG = {
   /** 保存先のシート名 (なければ自動作成される) */
   SHEET_NAME: "お問い合わせ",
 
-  /** 通知メールの宛先 (必須)。カンマ区切りで複数指定可。
-   *  例: "info@example.jp" ※必ず実際の受信アドレスに変更すること */
-  NOTIFY_EMAIL: "",
+  /** 通知メールの宛先 (必須)。カンマ区切りで複数指定可。 */
+  NOTIFY_EMAIL: "roots@gravity2018.co.jp",
 
   /** 通知メールの件名の先頭に付く文字列 */
   NOTIFY_SUBJECT_PREFIX: "【HPお問い合わせ】",
