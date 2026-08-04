@@ -8,7 +8,7 @@ window.SITE_CONFIG = {
      デプロイ後に "https://script.google.com/macros/s/～/exec" を設定する。
      空のままの場合、フォームは送信されず開発用メッセージを表示する。
      設定手順: docs/contact-form-setup.md 参照 */
-  contactEndpoint: "",
+  contactEndpoint: "https://script.google.com/macros/s/AKfycbzGpdc3aOI2PeWnIYnQUALDdVyRamPe6n1dp4969Qe-9RdlH2Pa7-T7F2b5pWm43q6r/exec",
   /* reCAPTCHA v3 のサイトキー。発行したら設定すると自動で有効になる (GAS側のシークレットキー設定も必要) */
   recaptchaSiteKey: ""
 };
