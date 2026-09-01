@@ -9,3 +9,6 @@ node_modules/
 # 本番リリースパッケージ(tools/build-release.jsで都度生成)
 release/
 roots-website-release.zip
+
+# メールアカウント等の非公開メモ(コミット禁止)
+docs-local/

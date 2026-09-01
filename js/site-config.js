@@ -3,7 +3,7 @@ window.SITE_CONFIG = {
   /* GA4測定ID。発行されたら "G-XXXXXXXXXX" を設定すると自動で計測タグが有効になる */
   ga4Id: "",
   /* 公開ドメイン確定後に設定 (OGP絶対URL生成などに使用予定) 例: "https://www.gravity2018.co.jp" */
-  siteOrigin: "",
+  siteOrigin: "https://www.gravity2018.co.jp",
   /* お問い合わせフォームの送信先 (GASウェブアプリのURL)。
      デプロイ後に "https://script.google.com/macros/s/～/exec" を設定する。
      空のままの場合、フォームは送信されず開発用メッセージを表示する。
